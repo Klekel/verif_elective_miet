@@ -7,8 +7,8 @@ module testbench;
     truth_table DUT(
         .a ( a ),
         .b ( b ),
-        .c ( c ),
-        .r ( r )
+        .c( c ),
+        .r    ( r )
     );
 
     `include "generator.svh"
